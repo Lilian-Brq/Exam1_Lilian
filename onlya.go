@@ -4,6 +4,9 @@ import (
 	"github.com/01-edu/z01"
 )
 
+func onlya() {
+	z01.PrintRune(('z'))
+}
 func main() {
-	z01.PrintRune(('a'))
+	onlya()
 }
